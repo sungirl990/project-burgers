@@ -1,0 +1,50 @@
+.slider__section {
+    background-image: linear-gradient(to top, #f9b43b, #eb8c38, #f9b43b);
+}
+
+.slider__container {
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-right: 50px; */
+    align-items: center;
+}
+
+.slider__price {
+    font-family: 'ubuntu-bold';
+    color: #e35028;
+}
+
+.slider__title,
+.slider__desc {
+    color: white;
+}
+
+.slider__price,
+.submit__btn 
+.price__title,
+.price__val {
+    display: inline;
+}
+
+.price__title {
+    font-size: 72px;
+}
+
+.price__val {
+    font-size: 30px;
+}
+
+.slider__right {
+    padding-left: 30px;
+    flex: 1;
+}
+.slider__left {
+    flex: 80%;
+}
+
+.slider__btn {
+    margin-left: 50px;
+    text-transform: uppercase;
+    border-color: transparent;
+}

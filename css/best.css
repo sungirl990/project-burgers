@@ -1,0 +1,36 @@
+.best__section {
+    background-image: url('../img/contentpic/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.best__title {
+    text-align: center;
+}
+
+.best__list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.best__item--desc {
+    color: rgba(47, 50, 52, 0.8);
+}
+
+.best__item {
+    text-align: center;
+    padding-right: 30px;
+}
+.best__item:last-child {
+    padding-right: 0;
+}
+
+.best__item--img,
+h5,
+.best__item--desc {
+    padding-top: 20px;
+}

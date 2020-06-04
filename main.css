@@ -1,0 +1,67 @@
+@import url('./css/body.css');
+@import url('./css/header.css');
+@import url('./css/herocontent.css');
+@import url('./css/slider.css');
+@import url('./css/team.css');
+@import url('./css/best.css');
+@import url('./css/reviews.css');
+@import url('./css/delivdery.css');
+@import url('./css/map.css');
+@import url('./css/footer.css');
+
+
+
+@font-face {
+    font-family: 'lifehack';
+    src: url("../fontsburger/AnyConv.com__Lifehack\ Medium.woff") format('woff');
+    src: url("../fontsburger/AnyConv.com__Lifehack\ Medium.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url("../fontsburger/Ubuntu-B.woff") format('woff');
+    src: url("../fontsburger/Ubuntu-B.woff2") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu-light';
+    src: url("../fontsburger/Ubuntu-Light.woff") format('woff');
+    src: url("../fontsburger/Ubuntu-Light.woff2") format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'ubuntu-medium';
+    src: url("../fontsburger/Ubuntu-Medium.woff") format('woff');
+    src: url("../fontsburger/Ubuntu-Medium.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url("../fontsburger/Ubuntu-Regular.woff") format('woff');
+    src: url("../fontsburger/Ubuntu-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 
+@orange-color #f9b43b;
+@white-color #fff;
+@black-color #000;
+@red-color #e45028; */
+
+@font-face {
+    font-family: 'gagalin';
+    src: url("../fontsburger/Gagalin-Regular.woff") format('woff');
+    src: url("../") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,0 +1,51 @@
+.hero__section {
+    background-image: url('../img/contentpic/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.hero__container {
+    /* display: flex; */
+    height: 100%;
+}
+.hero__title {
+    color: #f9b43b;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    /* padding-left: 130px; */
+}
+
+.hero__right {
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.hero__img {
+    width: 370px;
+    height: 370px;
+}
+
+.hero__desc {
+    font-family: 'ubuntu-bold';
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.arrow {
+    width: 30px;
+    height: 14px;
+}
+
+.down__arrow {
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}

@@ -1,0 +1,61 @@
+.header__container {
+    position: relative;
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.nav__item:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.nav__item:last-child:after {
+    display: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'ubuntu-bold';
+}
+
+.order__link--btn {
+    text-decoration: none;
+    color: white;
+}
+
+.order__links {
+    display: inline; 
+    margin-top: 16px;
+}
+
+.order__link--btn {
+    background-color: #e45028;
+    padding: 9px 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+

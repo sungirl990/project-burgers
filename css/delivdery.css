@@ -1,0 +1,84 @@
+.delivery__section {
+    background-image: url(../img/contentpic/chalkboard-texture-mc-2015-by-mattiamc-d-8-dbnac@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.delivery__title {
+    color: #f9b43b;
+    text-align: center;
+    /* padding-bottom: 60px; */   
+}
+
+.form__elem {
+    display: flex;
+    flex: 1;
+    padding-left: 100px;
+}
+
+
+.form__row {
+    display: flex;
+}
+
+.form__block--title,
+.option {
+    color: white;
+}
+
+.form__input {
+    width: 100%;
+    border: none;
+    background: #fff;
+    border-radius: 3px;
+    padding: 7px 7px;
+    outline: none;
+    border: 1px solid transparent;
+    width: 220px;
+    height: 36px;
+    padding-right: 19px;
+}
+
+.form__row--3 .form__input {
+    width: 100px;
+    height: 36px;
+}
+
+.form__row--2 .form__input {
+    width: 460px;
+    height: 36px;
+    
+}
+
+.form__input--textarea {
+    width: 460px;
+    height: 110px;
+}
+
+.form__block {
+    padding-right: 19px;
+    padding-bottom: 10px;
+}
+
+.submit__btn {
+    background-color: #e45028;
+    padding: 9px 16px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'ubuntu-bold';
+}
+
+.erase__btn {
+    color: white;
+    background-color: transparent;
+    border: transparent;  
+    padding: 9px 16px;  
+}
+
+.form__button,
+.option {
+    padding-top: 15px;
+}
+

@@ -1,0 +1,17 @@
+.team__section {
+    background-image: url('../img/contentpic/SBS_1255-X2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.team__container {
+    opacity: 0.93;
+    background-color: #383838;
+    float: right;
+}
+
+.team__member {
+    display: flex;
+}
