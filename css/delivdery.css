@@ -40,6 +40,9 @@
     height: 36px;
     padding-right: 19px;
 }
+.form__input:hover {
+    border-color: #f9b43b;
+}
 
 .form__row--3 .form__input {
     width: 100px;

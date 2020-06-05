@@ -7,11 +7,78 @@
 }
 
 .team__container {
+    width: 50%;
+    height: 100%;
     opacity: 0.93;
     background-color: #383838;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.team__title {
+    color: #f9b43b;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.member__content {
+    display: flex;
+}
+
+.team__list {
+    padding-left: 100px;
+}
+
+.member__info {
+    padding-left: 20px;
+}
+
+.member__name {
+    font-family: 'ubuntu-bold';
+    font-size: 14px;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.member__info--status {
+    font-family: 'ubuntu-bold';
+    font-size: 12px;
+    color: white;
+    padding-top: 10px;
+}
+
+.member__info--desc {
+    font-family: 'ubuntu-light';
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
 }
 
 .team__member {
-    display: flex;
+    padding-bottom: 30px;
 }
+.member__name {
+    background-image: url('../img/icons/Polygon\ 1.png');
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    padding-left: 20px;
+    display: inline;
+    
+}
+
+.member__active {
+    color: #f9b43b;
+}
+/* .member__content {
+    opacity: 0;
+}  */
+/* 
+.member__active {
+    opacity: 1;
+} */
+
+
+
+

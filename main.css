@@ -21,16 +21,16 @@
 
 @font-face {
     font-family: 'ubuntu-bold';
-    src: url("../fontsburger/Ubuntu-B.woff") format('woff');
-    src: url("../fontsburger/Ubuntu-B.woff2") format('woff2');
+    src: url("./fontsburger/Ubuntu-B.woff") format('woff');
+    src: url("./fontsburger/Ubuntu-B.woff2") format('woff2');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ubuntu-light';
-    src: url("../fontsburger/Ubuntu-Light.woff") format('woff');
-    src: url("../fontsburger/Ubuntu-Light.woff2") format('woff2');
+    src: url("./fontsburger/Ubuntu-Light.woff") format('woff');
+    src: url("./fontsburger/Ubuntu-Light.woff2") format('woff2');
     font-weight: lighter;
     font-style: normal;
 }
@@ -39,16 +39,16 @@
 
 @font-face {
     font-family: 'ubuntu-medium';
-    src: url("../fontsburger/Ubuntu-Medium.woff") format('woff');
-    src: url("../fontsburger/Ubuntu-Medium.woff2") format('woff2');
+    src: url("./fontsburger/Ubuntu-Medium.woff") format('woff');
+    src: url("./fontsburger/Ubuntu-Medium.woff2") format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ubuntu';
-    src: url("../fontsburger/Ubuntu-Regular.woff") format('woff');
-    src: url("../fontsburger/Ubuntu-Regular.woff2") format('woff2');
+    src: url("./fontsburger/Ubuntu-Regular.woff") format('woff');
+    src: url("./fontsburger/Ubuntu-Regular.woff2") format('woff2');
     font-weight: normal;
     font-style: normal;
 }
