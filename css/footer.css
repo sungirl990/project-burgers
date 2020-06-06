@@ -32,13 +32,17 @@ footer {
 .phone__number {
     color: #e45028;
     text-decoration: none;
-    background-image: url('../img/icons/phone.svg');
-    background-repeat: no-repeat;
-    background-position: relative;
     margin-left: 80px;
     padding-left: 15px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.phone__number:before {
+    content: url('../img/icons/phone.svg');
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
 }
 
 .socials__list--item {

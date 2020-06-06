@@ -58,27 +58,34 @@
 .team__member {
     padding-bottom: 30px;
 }
+
 .member__name {
-    background-image: url('../img/icons/Polygon\ 1.png');
-    background-position: relative;
-    background-repeat: no-repeat;
-    background-size: 10px 10px;
-    padding-left: 20px;
-    display: inline;
-    
+    background: transparent;
+    border: transparent;  
+    padding: 9px 16px;  
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;  
 }
 
-.member__active {
+.member__name:hover {
     color: #f9b43b;
 }
-/* .member__content {
-    opacity: 0;
-}  */
-/* 
-.member__active {
-    opacity: 1;
-} */
 
-
-
-
+.member__content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    /* max-height: 0;
+    transition: max-height 0.2s ease-out; */
+  }
+  
+  .member__name:before {
+  content: url('../img/icons/Polygon\ 1.png');
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
