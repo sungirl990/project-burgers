@@ -10,6 +10,7 @@
     /* display: flex; */
     height: 100%;
 }
+
 .hero__title {
     color: #f9b43b;
 }
@@ -17,7 +18,8 @@
 .hero__content {
     display: flex;
     align-items: center;
-    /* padding-left: 130px; */
+    align-content: center;
+    padding-left: 130px;
 }
 
 .hero__right {

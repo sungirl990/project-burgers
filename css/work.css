@@ -1,0 +1,15 @@
+.work__section {
+    background-image: url('../img/contentpic/BG_.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.work__container {
+    text-align: center;
+}
+
+.work__title {
+    padding-bottom: 10px;
+}
