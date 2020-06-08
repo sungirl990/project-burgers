@@ -1,0 +1,13 @@
+.menu__section {
+    background-image: url('../img/contentpic/photo-1428660386617-8d277e7deaf2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.menu__title {
+    color: white;
+    margin-bottom: 450px;
+    margin-left: 30px;
+}
