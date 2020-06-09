@@ -1,13 +1,70 @@
-.menu__section {
+/* .menu__section {
     background-image: url('../img/contentpic/photo-1428660386617-8d277e7deaf2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
+} */
+.menu__img {
+    position: absolute;
+    margin: 0;
+    z-index: -5;
 }
-
-.menu__title {
+/* .menu__title {
     color: white;
     margin-bottom: 450px;
     margin-left: 30px;
+} */
+.menu__name--active {
+    font-size: 70px;  
+    padding-left: 50px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'ubuntu-bold';
+    text-transform: uppercase;
 }
+
+.menu__name {
+    position: absolute;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'ubuntu-bold';
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    color: #e35028;
+    margin-top: 200px;
+}
+
+
+.menu__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+  }
+.menu__item--active {
+    flex: 10;
+}
+
+.menu__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: -webkit-box-flex 500ms ease-out;
+    -webkit-transition: -webkit-flex 500ms ease-out;
+    transition: -webkit-box-flex 500ms ease-out;
+    transition: -ms-flex 500ms ease-out;
+    transition: flex 500ms ease-out;
+}
+
+.menu__item:hover {
+    -webkit-box-flex: 10;
+    -webkit-flex: 10;
+    -ms-flex: 10;
+    flex: 10;
+  }
+  
+  
